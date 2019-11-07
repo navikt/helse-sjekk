@@ -1,0 +1,19 @@
+name: deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: deploy to prod
+        uses: navikt/deployment-cli/action@0.4.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AWAIT_SECONDS: 0
+        with:
+          cluster: prod-fss
+          team: tbd
+          resources: nais.yaml
