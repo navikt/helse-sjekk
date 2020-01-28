@@ -1,5 +1,5 @@
 # helse-sjekk
 
-Overvåker consumer offset lag.
+Overvåker Kafka-consumer offset lag.
 
 Se https://github.com/navikt/dp-kafka-offset-monitor
