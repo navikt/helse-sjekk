@@ -33,6 +33,6 @@ spec:
     - name: PROMETHEUS_NAMESPACE
       value: default
     - name: CONSUMER_GROUPS
-      value: spleis-v1,sparkel-sykepengeperioder-v1,sputnik-v1,spock-v2,spenn-1,spade-v3,behovsakkumulator-v1,vedtaksfeed-v1,sparkel-vilkarsproving-v1,sparkel-inntekt-v1,spetakkel-v1
+      value: spleis-v4,sparkel-sykepengeperioder-v1,sputnik-v1,spock-v2,spenn-1,spade-v3,behovsakkumulator-v1,vedtaksfeed-v1,sparkel-vilkarsproving-v1,sparkel-inntekt-v1,spetakkel-v1
     - name: KAFKA_BOOTSTRAP_SERVERS
       value: a01apvl00145.adeo.no:8443,a01apvl00146.adeo.no:8443,a01apvl00147.adeo.no:8443,a01apvl00148.adeo.no:8443,a01apvl00149.adeo.no:8443,a01apvl00150.adeo.no:8443
